@@ -1,0 +1,65 @@
+input[type="text"] {
+  display: block;
+  border: none;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  float: left;
+}
+
+.dummy {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  height: 600px;
+  position: relative;
+  clear: both;
+}
+
+.dummy > div {
+  position: absolute;
+}
+
+.dummy > div:nth-child(1) {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(134, 102, 63);
+  bottom: 0;
+}
+
+.dummy > div:nth-child(2) {
+  width: 30px;
+  height: 400px;
+  background-color: rgb(205, 164, 102);
+  bottom: 30px;
+  left: 85px;
+}
+
+.dummy > div:nth-child(3) {
+  height: 30px;
+  width: 200px;
+  background-color: rgb(161, 129, 88);
+  bottom: 430px;
+  left: 85px;
+}
+
+.dummy > div:nth-child(4) {
+  height: 50px;
+  width: 30px;
+  background-color: rgb(175, 144, 98);
+  bottom: 380px;
+  left: 255px;
+}
+
+.dummy > div:nth-child(5) {
+  height: 70px;
+  width: 70px;
+  border: 30px solid rgb(224, 175, 145);
+  border-radius: 50%;
+  left: 200px;
+  bottom: 260px;
+}
